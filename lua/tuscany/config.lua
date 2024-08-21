@@ -1,5 +1,6 @@
 ---@alias Palette { base: string, surface: string, overlay: string, muted: string, subtle: string, text: string, love: string, gold: string, rose: string, pine: string, foam: string, iris: string }
----@alias PaletteColor "base" | "surface" | "overlay" | "muted" | "subtle" | "text" | "love" | "gold" | "rose" | "pine" | "foam" | "iris" | "highlight_low" | "highlight_med" | "highlight_high"
+
+---@alias PaletteColor "red_wine" | "white_wine" | "overlay" | "terracotta" | "cobblestone" | "gold" | "night" | "day" | "pine" | "iris" | "overlay" | "surface" | "highlight_low" | "highlight_med" | "highlight_high" | "muted" | "text"
 ---@alias Highlight { link: string, inherit: boolean } | { fg: string, bg: string, sp: string, bold: boolean, italic: boolean, undercurl: boolean, underline: boolean, underdouble: boolean, underdotted: boolean, underdashed: boolean, strikethrough: boolean, inherit: boolean }
 
 local config = {}
@@ -26,38 +27,38 @@ config.options = {
         transparency = false,
     },
 
-    ---@type table<string, string | PaletteColor>
+    ---@type table<string, PaletteColor>
     groups = {
-        border = "muted",
-        link = "iris",
-        panel = "surface",
+        border = "muted",   --- Done
+        link = "iris",      --- Done
+        panel = "surface",  --- Done
 
-        error = "love",
-        hint = "iris",
-        info = "foam",
-        ok = "leaf",
-        warn = "gold",
-        note = "pine",
-        todo = "rose",
+        error = "red_wine", --- Done
+        hint = "iris",      --- Done
+        info = "gold",
+        ok = "iris",
+        warn = "terracotta",      --- Done
+        note = "pine",            --- Done
+        todo = "terracotta",      --- Done
 
-        git_add = "foam",
-        git_change = "rose",
-        git_delete = "love",
-        git_dirty = "rose",
-        git_ignore = "muted",
-        git_merge = "iris",
-        git_rename = "pine",
-        git_stage = "iris",
-        git_text = "rose",
-        git_untracked = "subtle",
+        git_add = "iris",         --- Done
+        git_change = "gold",      --- Done
+        git_delete = "red_wine",  --- Done
+        git_dirty = "terracotta", --- Done
+        git_ignore = "muted",     --- Done
+        git_merge = "iris",       --- Done
+        git_rename = "pine",      --- Done
+        git_stage = "iris",       --- Done
+        git_text = "white_wine",
+        git_untracked = "muted",
 
-        ---@type string | PaletteColor
+        ---@type PaletteColor
         h1 = "iris",
-        h2 = "foam",
-        h3 = "rose",
-        h4 = "gold",
-        h5 = "pine",
-        h6 = "leaf",
+        h2 = "pine",
+        h3 = "white_wine",
+        h4 = "cobblestone",
+        h5 = "muted",
+        h6 = "day",
     },
 
     ---@type table<string, Highlight>
