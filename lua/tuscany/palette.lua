@@ -23,6 +23,8 @@
 -- }
 
 local palette = {
+    _nc = "#16141f",
+    base = "#161616",
     red_wine = "#951539",
     white_wine = "#f6e5d3",
     terracotta = "#e2725b",
@@ -35,7 +37,10 @@ local palette = {
     muted = "#f7d6d0",
     overlay = "#212121",
     surface = "#1c1c1c",
-    text = "#fdf8f4"
+    text = "#fdf8f4",
+    highlight_low = "#21202e",
+    highlight_med = "#2a2a2a",
+    highlight_high = "#524f67",
 }
 
 return palette

@@ -1,3 +1,5 @@
+local highlights = require("tuscany.highlights")
+
 local M = {}
 
 ---@alias TuscanyTheme 'tuscany-auto' | 'tuscany-night' | 'tuscany-day'
@@ -25,6 +27,7 @@ function M.load_theme(theme)
         print('Getting system settings')
     elseif theme == 'tuscany-night' then
         print('Setting up tuscany-night')
+        highlights.colorscheme()
     else
         print('Setting up tuscany-day')
     end
