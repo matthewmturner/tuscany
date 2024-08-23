@@ -35,7 +35,7 @@ function M.set_highlights()
         ["@method"] = { fg = palette.terracotta },
         ["@namespace"] = { link = "Include" },
         ["@number"] = { link = "Number" },
-        ["@parameter"] = { fg = palette.iris, italic = styles.italic },
+        ["@parameter"] = { fg = palette.cobblestone, italic = styles.italic },
         ["@preproc"] = { link = "PreProc" },
         ["@punctuation"] = { fg = palette.white_wine },
         ["@punctuation.bracket"] = { link = "@punctuation" },
@@ -179,7 +179,7 @@ function M.set_highlights()
 
         Boolean = { fg = palette.terracotta },
         Character = { fg = palette.gold },
-        Comment = { fg = palette.white_wine, italic = styles.italic },
+        Comment = { fg = palette.comment, italic = styles.italic },
         Conditional = { fg = palette.pine },
         Constant = { fg = palette.gold },
         Debug = { fg = palette.terracotta },
@@ -268,7 +268,7 @@ function M.set_highlights()
         --- Identifiers
         ["@variable"] = { fg = palette.text, italic = styles.italic },
         ["@variable.builtin"] = { fg = palette.red_wine, bold = styles.bold },
-        ["@variable.parameter"] = { fg = palette.iris, italic = styles.italic },
+        ["@variable.parameter"] = { fg = palette.cobblestone, italic = styles.italic },
         ["@variable.member"] = { fg = palette.iris },
 
         ["@constant"] = { fg = palette.gold },

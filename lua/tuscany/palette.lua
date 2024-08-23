@@ -22,10 +22,14 @@
 --     none = "NONE",
 -- }
 
+-- TODO: Better comment color
+-- TODO: Better variable parameter color
+
 local palette = {
     _nc = "#16141f",
     base = "#161616",
-    red_wine = "#951539",
+    red_wine = "#b71a46",
+    -- red_wine = "#951539",
     white_wine = "#f6e5d3",
     terracotta = "#e2725b",
     cobblestone = "#9e8779",
@@ -38,6 +42,7 @@ local palette = {
     overlay = "#212121",
     surface = "#1c1c1c",
     text = "#fdf8f4",
+    comment = "#5a5a5a",
     highlight_low = "#21202e",
     highlight_med = "#2a2a2a",
     highlight_high = "#524f67",

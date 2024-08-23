@@ -11,12 +11,10 @@ M.theme = 'tuscany-night'
 ---@param opts? table<'theme', TuscanyTheme>
 function M.setup(opts)
     opts = opts or {}
-    print("Opts in setup", opts)
     if opts.theme then
         print("Theme in opts, setting")
         M.theme = opts.theme
     end
-    -- vim.g.colors_name = "tuscany" + opts.theme
 end
 
 ---@param theme? TuscanyTheme
