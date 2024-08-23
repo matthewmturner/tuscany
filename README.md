@@ -11,7 +11,7 @@ There are three theme variants:
 - Tuscany Day [TODO]
 - Tuscany Auto (switches based on time of day / system setting) [TODO]
 
-Extras (in a similar fashion to [tokyonight](LINK)) are also provided.  These will be added based on tools I use, contributions for new extras will be welcome.
+Extras (in a similar fashion to [tokyonight](https://github.com/folke/tokyonight.nvim)) are also provided.  These will be added based on tools I use, contributions for new extras will be welcome.
 
 ## Status
 
@@ -19,7 +19,7 @@ Alpha quality.  I have just started to enable Tuscany as my day to day theme and
 
 ## Installation
 
-With [Lazy](LINK)
+With [Lazy](https://github.com/folke/lazy.nvim)
 
 ```lua
 {
@@ -32,5 +32,5 @@ With [Lazy](LINK)
 
 ## Thanks
 
-Big thanks to the great [rose-pine](LINK) theme that I used as my initial playground for editing a theme and then used some of their source and colors in the Tuscany theme.  I would not have developed this so fast without the great work done there.
+Big thanks to the great [rose-pine](https://github.com/rose-pine/rose-pine-theme) theme that I used as my initial playground for editing a theme and then used some of their source and colors in the Tuscany theme.  I would not have developed this so fast and wouldn't have had as good of taste for colors without the great work done there.
 
