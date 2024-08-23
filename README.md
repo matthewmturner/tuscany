@@ -2,7 +2,20 @@
 
 Theme inspired by a trip to Italy where my favorite part of the trip was the region of Tuscany.
 
-<img width="1724" alt="image" src="https://github.com/user-attachments/assets/b68b30f0-1b3b-444b-a8e6-f87a05169e64">
+<table width="100%">
+    <tr>
+        <th>Editor</th>
+        <th>Terminal</th>
+    </tr>
+    <tr>
+        <td width="50%">
+            <img width="1724" alt="image" src="https://github.com/user-attachments/assets/223939e1-be10-4a86-bf5d-c48b2cf3d709">
+        </td>
+        <td width="50%">
+            <img width="1724" alt="image" src="https://github.com/user-attachments/assets/1c939d44-5648-44ef-b708-3141e4cde005">
+        </td>
+    </tr>
+</table>
 
 
 There are three theme variants:
