@@ -8,23 +8,20 @@ local M = {}
 M.theme = 'tuscany-night'
 
 
----@param opts? table<'theme', TuscanyTheme>
+---@param opts? table<'variant', TuscanyTheme>
 function M.setup(opts)
     opts = opts or {}
-    if opts.theme then
-        print("Theme in opts, setting")
-        M.theme = opts.theme
+    if opts.variant then
+        M.load_theme(opts.variant)
     end
 end
 
 ---@param theme? TuscanyTheme
 function M.load_theme(theme)
-    print("Loading theme: ", theme)
     if theme == 'tuscany-auto' then
         -- Do some work to get system theme
         print('Getting system settings')
     elseif theme == 'tuscany-night' then
-        print('Setting up tuscany-night')
         highlights.colorscheme()
     else
         print('Setting up tuscany-day')

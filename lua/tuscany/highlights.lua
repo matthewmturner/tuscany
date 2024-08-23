@@ -106,7 +106,7 @@ function M.set_highlights()
         ModeMsg = { fg = palette.white_wine },
         MoreMsg = { fg = palette.iris },
         NonText = { fg = palette.muted },
-        Normal = { fg = palette.text, bg = palette.base },
+        Normal = { fg = palette.text, bg = palette.night },
         NormalFloat = { bg = groups.panel },
         NormalNC = { fg = palette.text, bg = config.options.dim_inactive_windows and palette._nc or palette.base },
         NvimInternalError = { link = "ErrorMsg" },
@@ -307,7 +307,7 @@ function M.set_highlights()
         ["@function.builtin"] = { fg = palette.terracotta, bold = styles.bold },
         ["@function.macro"] = { link = "Function" },
         ["@function.method"] = { fg = palette.terracotta },
-        ["@function.method.call"] = { fg = palette.iris },
+        ["@function.method.call"] = { fg = palette.terracotta },
 
         ["@constructor"] = { fg = palette.iris },
         ["@operator"] = { link = "Operator" },
@@ -382,8 +382,9 @@ function M.set_highlights()
         ["@diff.delta"] = { bg = groups.git_change, blend = 20 },
 
         ["@tag"] = { link = "Tag" },
-        ["@tag.attribute"] = { fg = palette.iris },
+        ["@tag.attribute"] = { fg = palette.white_wine },
         ["@tag.delimiter"] = { fg = palette.white_wine },
+        ["@tag.builtin.tsx"] = { fg = palette.iris },
 
         --- Non-highlighting captures
         ["@conceal"] = { link = "Conceal" },
