@@ -2,6 +2,9 @@
 
 Theme inspired by a trip to Italy where my favorite part of the trip was the region of Tuscany.
 
+<img width="1724" alt="image" src="https://github.com/user-attachments/assets/b68b30f0-1b3b-444b-a8e6-f87a05169e64">
+
+
 There are three theme variants:
 
 - Tuscany Night
