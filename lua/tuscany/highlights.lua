@@ -295,7 +295,7 @@ function M.set_highlights()
 
         ["@constant"] = { fg = palette.gold },
         ["@constant.builtin"] = { fg = palette.gold, bold = styles.bold },
-        ["@constant.macro"] = { fg = palette.gold },
+        ["@constant.macro"] = { fg = palette.terracotta },
 
         ["@module"] = { fg = palette.text },
         ["@module.builtin"] = { fg = palette.text, bold = styles.bold },
