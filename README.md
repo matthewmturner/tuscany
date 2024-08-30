@@ -1,6 +1,6 @@
 # Tuscany theme
 
-Theme inspired by a trip to Italy where my favorite part of the trip was the region of Tuscany.
+Neovim theme inspired by a trip to Italy where my favorite part of the trip was the region of Tuscany.
 
 <table width="100%">
     <tr>
